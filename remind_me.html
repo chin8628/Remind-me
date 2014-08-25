@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+	function remind_me(){
+		setInterval(function(){
+						var audio = new Audio('remind_me.mp3');
+						audio.play();
+					},3600000);
+	}
+	</script>
+</head>
+<body>
+
+<button type="submit" onclick="remind_me()">Start</button>
+
+</body>
+</html>
